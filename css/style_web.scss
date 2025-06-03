@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+.main-container{
+    margin: 0;
+}
+.content-container{
+    width: 84%;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    // background: #EDEDED;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+// animation
+.home-slider,.home-one,.home-two,.home-three,.home-four,.home-five,.home-six{
+    opacity: 0;
+    transform: translateY(50px);
+}
