@@ -55,7 +55,7 @@
         </label>
     </div>
     
-    <div class="drawer-side">
+    <div class="drawer-side hidden">
         <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
         <ul class="menu bg-white text-black min-h-full w-[40%] min-w-[156px] py-4 px-2">
             <li>

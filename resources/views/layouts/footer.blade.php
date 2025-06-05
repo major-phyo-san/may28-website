@@ -1,5 +1,5 @@
 
-<div class="text-[#4D5C99]">
+<div class="text-[#4D5C99] w-[84%] mx-auto">
     <div>
         <div class="flex justify-center gap-x-6 mb-3">
             <a href="#">
