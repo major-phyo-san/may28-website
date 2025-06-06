@@ -29,3 +29,12 @@
     opacity: 0;
     transform: translateY(50px);
 }
+.equal-height-slider .slick-track
+{
+    display: flex !important;
+}
+
+.equal-height-slider .slick-slide
+{
+    height: inherit !important;
+}
