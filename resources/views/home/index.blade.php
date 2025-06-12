@@ -114,7 +114,7 @@
                             <h3 class="text-lg font-semibold text-gray-900 mb-4">20 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <!-- <span class="text-gray-600 ml-1">Mbps</span> -->
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">30000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">30,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -150,7 +150,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4">30 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">41000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">41,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -186,7 +186,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4"> 50 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">65000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">65,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -222,7 +222,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4"> 70 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">90000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">90,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -258,7 +258,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4"> 100 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">120000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">120,000MMK</span>
                             </div>
                         </div>
                         <button
