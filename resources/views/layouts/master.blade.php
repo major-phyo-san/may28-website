@@ -12,7 +12,7 @@
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 
-	<title> {{Config::get('app.name')}} | @yield('page_title')</title>
+	<title> SAM MOUK MO</title>
     <!-- <link rel="stylesheet" href="{{asset('css/app.css')}}"> -->
     <link rel="stylesheet" href="{{asset('css/style_web.css')}}">
     <link rel="stylesheet" href="{{asset('fontawesome/css/all.css')}}">

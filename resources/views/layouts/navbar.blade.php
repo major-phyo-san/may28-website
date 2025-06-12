@@ -1,5 +1,5 @@
 <div class=" fixed top-0 w-full z-[80] navbar hidden lg:block px-0 bg-white" id="navbar">
-    <div class="w-11/12 lg:!w-10/12 mx-auto flex justify-between py-1.5 items-center">
+    <div class="w-11/12 lg:!w-[84%] mx-auto flex justify-between py-1.5 px-[2%] items-center">
         <div class="lg:flex self-center items-center hidden">
             <img src="{{ asset('img/logo.png') }}" class="w-20 my-auto" alt="">
             <span class="font-semibold">
@@ -9,35 +9,36 @@
         <div class="">
             <ul class="flex gap-x-2 lg:gap-x-6 navbar-ul text-black items-center">
                 <li>
-                    <a href="/home" class=" @yield('home') py-2" id="home_navbar">
+                    <a href="/home" class=" @yield('home') py-2 home" id="home">
                             Home
                     </a>
                 </li>
                 <li class="hidden lg:block">
-                    <a href="#" class=" @yield('service') py-2 service_scroll">
+                    <a href="#" class=" @yield('service') py-2 about_us">
                             About Us
                     </a>
                 </li>
                 <li class="hidden lg:block">
-                    <a href="/project" class=" @yield('project') py-2 ">
+                    <a href="#" class=" @yield('project') py-2 service_scroll">
                         Services
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="   py-2" id="portfolio_scroll">
+                    <a href="#" class="   py-2 package_scroll" id="portfolio_scroll">
                         Packages
                     </a>
                 </li>
                 <li>
-                    <a href="/team" class=" @yield('team')  py-2">
+                    <a href="#" class=" @yield('team') contact_scroll py-2">
                         Contact Us
                     </a>
                 </li>
                 
                 <li>
-                    <button class="py-2 px-4 bg-[#243B8F] text-white rounded-lg text-sm">
-                        Get Started
-                    </button>
+                    <a href="tel: 09911" class="py-2 px-4 bg-[#243B8F] text-white rounded-lg text-sm">
+                        Call Now
+                        <i class="fas fa-phone pl-1 text-sm"></i>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -98,19 +99,24 @@
 </div>
 <script>
     $(document).ready(function(){
-        $('#portfolio_scroll').on('click', function() {
+        $('#home').on('click', function() {
             $('html, body').animate({
-                scrollTop: $('#portfolio_section').offset().top - 150
+                scrollTop: $('#home_section').offset().top - 150
             }, 800);
         });
-        $('.testimonial_scroll').on('click', function() {
+        $('.about_us').on('click', function() {
             $('html, body').animate({
-                scrollTop: $('#testimonial_section').offset().top - 100
+                scrollTop: $('#about_us_section').offset().top - 100
             }, 800); 
         });
         $('.service_scroll').on('click', function() {
             $('html, body').animate({
                 scrollTop: $('#service_section').offset().top - 100
+            }, 800); 
+        });
+        $('.package_scroll').on('click', function() {
+            $('html, body').animate({
+                scrollTop: $('#package_section').offset().top - 150
             }, 800); 
         });
         $('.contact_scroll').on('click', function() {
