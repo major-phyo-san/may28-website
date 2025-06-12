@@ -1,8 +1,8 @@
 
-<div class="text-[#4D5C99] w-[84%] mx-auto">
+<div class="text-[#4D5C99] w-[84%] mx-auto" id="contact_section">
     <div>
         <div class="flex justify-center gap-x-6 mb-3">
-            <a href="#">
+            <a href="https://www.facebook.com/share/1brAVKRNT1/?mibextid=wwXIfr">
                 <img src="{{ asset('img/fb.png') }}" alt="">
             </a>
             <a href="#">
