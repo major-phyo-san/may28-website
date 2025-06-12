@@ -186,7 +186,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4"> 50 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">650000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">65000MMK</span>
                             </div>
                         </div>
                         <button
