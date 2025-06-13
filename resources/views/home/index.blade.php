@@ -12,22 +12,22 @@
                 
                 <div class="relative">
                     <img src="{{ asset('img/port1.jpg') }}" class=" w-full aspect-video" alt="">
-                    <div class="absolute left-[8%] bottom-8 lg:bottom-[16%] w-[60%]">
-                        <p class=" text-2xl lg:text-6xl text-white mb-4">
+                    <div class="slider-text-container">
+                        <p class=" text-xl lg:text-6xl text-white mb-4">
                             Reliable Internet for the Whole Family
                         </p>
-                        <p class="text-white mb-2 text-base">
+                        <p class="text-white mb-2 hidden lg:block text-base">
                             At Sam Mouk Mo Co., Ltd., we bring high-speed, stable internet to every corner of your home—perfect for streaming movies, online learning, video calls, and gaming. Our FTTH plans are designed to handle multiple devices smoothly, so your family stays connected, entertained, and informed—without interruption.
                         </p>
                     </div>
                 </div>
                 <div class="relative">
                     <img src="{{ asset('img/port2.jpg') }}" class=" w-full aspect-video" alt="">
-                    <div class="absolute left-[8%] bottom-8 lg:bottom-[16%] w-[60%]">
-                        <p class=" text-2xl lg:text-6xl text-white mb-4">
+                    <div class="slider-text-container">
+                        <p class=" text-xl lg:text-6xl text-white mb-4">
                         Experience the future of Connectivity
                         </p>
-                        <p class="text-white mb-2 text-base">
+                        <p class="text-white mb-2 hidden lg:block text-base">
                         Sam Monk Mo. Co.,ltd is dedicated to providing high-quilty internet services in Keng Tung Township,Eastern Shan State,Myanmar.We offer DIA and FTTH services to meet the growing demand for better internet solutions in the region
                         </p>
                     </div>
@@ -38,10 +38,12 @@
 
                 <div class="relative">
                     <img src="{{ asset('img/port3.jpg') }}" class=" w-full aspect-video" alt="">
-                    <div class="absolute left-[8%] bottom-8 lg:bottom-[16%] w-[60%]">
-                        <p class="text-white mb-2 text-base">
-                        Blazing Fast. Ultra Smooth. Always Reliable.
-                        Say goodbye to buffering and lag. With Sam Mouk Mo Co., Ltd., you’ll enjoy lightning-fast speeds that power everything—from 4K streaming and online gaming to video conferencing and large file transfers. Whether at home or work, our high-speed plans keep you moving at the speed of life.
+                    <div class="slider-text-container">
+                        <p class=" text-xl lg:text-6xl text-white mb-4">
+                            Blazing Fast. Ultra Smooth. Always Reliable.
+                        </p>
+                        <p class="text-white mb-2 hidden lg:block text-base">
+                            Say goodbye to buffering and lag. With Sam Mouk Mo Co., Ltd., you’ll enjoy lightning-fast speeds that power everything—from 4K streaming and online gaming to video conferencing and large file transfers. Whether at home or work, our high-speed plans keep you moving at the speed of life.
                         </p>
                     </div>
 
@@ -114,7 +116,7 @@
                             <h3 class="text-lg font-semibold text-gray-900 mb-4">20 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <!-- <span class="text-gray-600 ml-1">Mbps</span> -->
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">30000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">30,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -150,7 +152,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4">30 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">41000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">41,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -186,7 +188,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4"> 50 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">650000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">65,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -222,7 +224,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4"> 70 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">90000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">90,000MMK</span>
                             </div>
                         </div>
                         <button
@@ -258,7 +260,7 @@
                         <div class="mb-6">
                             <h3 class="text-lg font-semibold text-gray-900 mb-4"> 100 <span class="text-gray-600 ml-1">Mbps</span></h3>
                             <div class="flex items-baseline">
-                                <span class="text-4xl font-extrabold text-gray-900">120000MMK</span>
+                                <span class="text-4xl font-extrabold text-gray-900">120,000MMK</span>
                             </div>
                         </div>
                         <button

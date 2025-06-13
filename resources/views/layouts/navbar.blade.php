@@ -46,7 +46,7 @@
 </div>
 <div class="grid lg:hidden drawer z-[40] n">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content fixed top-0 left-0 right-0 bg-white shadow flex justify-between">
+    <div class="drawer-content fixed top-0 left-0 right-0 bg-white shadow flex justify-between z-40">
         <select id="language-selector-mobile" class="bg-transparent text-gray-600 px-2 ml-2 py-1 rounded-md text-sm focus:outline-none focus:ring-0 focus:shadow-none">
             <option value="en">en</option>
             <option value="mm">mm</option>
